@@ -14,7 +14,12 @@ area = a * l
 qtde_tinta = area / 2
 
 # Print 1
-print(f'\nDimensão da parede: {l} m X {a} m \nÁrea: {area} m² \nQuantidade de tinta: {qtde_tinta} litros')
+print(
+f'''
+Dimensão da parede: {l} m X {a} m 
+Área: {area} m² 
+Quantidade de tinta: {qtde_tinta} litros
+''')
 
 # Print 2
 # print('\nDimensão da parede: {} m X {} m \nÁrea: {} m² \nQuantidade de tinta: {} litros'.format(l, a, area, qtde_tinta))
