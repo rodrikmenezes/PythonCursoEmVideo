@@ -2,6 +2,9 @@
 Exercício Python 23: Faça um programa que leia um número de 0 a 9999 e mostre na tela cada um dos dígitos separados.
 '''
 
+# Limpar terminal 
+import os; os.system('cls')
+
 # Entrada
 n = input('Informe um número entre 0 e 9999: ')
 

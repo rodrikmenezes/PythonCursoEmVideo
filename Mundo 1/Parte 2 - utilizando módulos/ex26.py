@@ -3,6 +3,9 @@ Exercício Python 26: Faça um programa que leia uma frase pelo teclado e mostre
 em que posição ela aparece a primeira vez e em que posição ela aparece a última vez
 """
 
+# Limpar terminal 
+import os; os.system('cls')
+
 # Entrada
 texto = input('Digite uma frase: ').strip().lower()
 

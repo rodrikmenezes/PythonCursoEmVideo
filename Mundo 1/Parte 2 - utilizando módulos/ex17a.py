@@ -5,6 +5,9 @@ de um triângulo retângulo. Calcule e mostre o comprimento da hipotenusa.
 OBS: Solução sem uso de biblioteca
 """
 
+# Limpar terminal 
+import os; os.system('cls')
+
 # Entrada de dados
 co = float(input('Inserir Cateto Oposto = '))
 ca = float(input('Inserir Cateto Adjacente = '))

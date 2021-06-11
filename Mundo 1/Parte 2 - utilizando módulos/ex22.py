@@ -5,6 +5,9 @@ Exercício Python 22: Crie um programa que leia o nome completo de uma pessoa e 
 – Quantas letras tem o primeiro nome.
 '''
 
+# Limpar terminal 
+import os; os.system('cls')
+
 # Entrada
 nome = input('Digite seu nome completo: ')
 

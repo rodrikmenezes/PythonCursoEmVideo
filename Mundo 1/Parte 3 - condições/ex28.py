@@ -8,13 +8,16 @@ O programa deverá escrever na tela se o usuário venceu ou perdeu.
 import random as rd
 import time as tm
 
+# Limpar terminal 
+import os; os.system('cls')
+
 # Entrada
 n = rd.randint(0, 5)
-g = int(input('Adivinhe qual foi o número escolhido! (0 < n < 5): '))
+g = int(input('Adivinhe qual foi o número escolhido! (0 <= n <= 5): '))
 
 # Saída
-print('\nPROCESSANDO...\n')
-tm.sleep(2)
+print('\n\033[1;31mPROCESSANDO...\033[0;0m') # configurado para ser colorido
+tm.sleep(1)
 
 if g == n:
     print('VC ACERTOU!')
