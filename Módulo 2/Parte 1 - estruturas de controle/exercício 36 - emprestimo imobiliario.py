@@ -12,11 +12,6 @@ valorCasa = float(input('Valor da casa: R$ '))
 salario = float(input('Salário: R$ '))
 tempo = int(input('Quantos anos para pagar: '))
 
-# Teste
-# valorCasa = 80000
-# salario = 10000
-# tempo = 7
-
 # Cálculo
 prestacao = valorCasa / (12 * tempo)
 perc = prestacao / salario * 100
@@ -28,3 +23,8 @@ if perc > 30:
 else:
     print('EMPRÉSTIMO APROVADO!')
 
+
+# Teste
+# valorCasa = 80000
+# salario = 10000
+# tempo = 7
